@@ -5,7 +5,7 @@ const rotas = {
   '/': 'Pagina inicial',
   '/livros': 'Pagina de livros',
   '/autores': 'Pagina de autores',
-  '/editora': 'Pagina editora'
+  '/editora': 'Pagina editora teste'
 };
 const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/plain' });

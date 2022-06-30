@@ -4,9 +4,13 @@
   "description": "MongoSystem é um projeto de estudo com a ideia de desenvolver e aplicar conhecimentos sobre express e MongoDB",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Gabriel Delgado",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
 }
