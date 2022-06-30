@@ -1,12 +1,12 @@
 {
   "name": "mongosystem",
   "version": "1.0.0",
-  "description": "",
+  "description": "MongoSystem é um projeto de estudo com a ideia de desenvolver e aplicar conhecimentos sobre express e MongoDB",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gabriel Delgado",
   "license": "ISC"
 }
