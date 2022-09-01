@@ -22,14 +22,6 @@ app.get('/livros/:id', (req, res) => {
   res.status(200).json(livros[index]);
 });
 
-
-//POSTS
-
-app.post('/livros', (req, res) => {
-  livros.push(req.body);
-  res.status(201).send('Livro cadastrado');
-});
-
 //PUTS
 
 app.put('/livros/:id', (req, res) => {
